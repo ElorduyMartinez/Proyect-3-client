@@ -46,12 +46,14 @@ function LoginPage() {
 
   return (
     <div className="LoginPage">
+      <div id = "formulario">
       <h1>Login</h1>
 
       <form onSubmit={handleLoginSubmit}>
+      <div id = "form">
         <label>Email:</label>
         <input type="email" name="email" value={email} onChange={handleEmail} />
-
+        
         <label>Password:</label>
         <input
           type="password"
@@ -59,13 +61,14 @@ function LoginPage() {
           value={password}
           onChange={handlePassword}
         />
-
+        </div>
         <button type="submit">Login</button>
       </form>
       {errorMessage && <p className="error-message">{errorMessage}</p>}
 
       <p>Don't have an account yet?</p>
       <Link to={"/signup"}> Sign Up</Link>
+      </div>
     </div>
   );
 }

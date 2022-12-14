@@ -1,0 +1,73 @@
+#home {
+    margin: 5px;
+    margin-top: 0px;
+}
+
+#homei{
+    color:  white ;
+    height: 500px;
+    margin-bottom: 10px;
+    background-size: auto 500px;
+    background-image: url(https://www.liveaudiovisual.es/wp-content/uploads/2017/10/fondo-soluciones-final-1.jpg);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#movie , #series , #podcast {
+    background-image: url(https://thumbs.dreamstime.com/b/marco-cinematogr%C3%A1fico-antiguo-carrete-fotogr%C3%A1fico-ilustraci%C3%B3n-vectorial-rollo-de-fotos-negro-sobre-fondo-transparente-borde-242165921.jpg);
+    color: aliceblue;
+    Background-size: auto 400px;
+    
+}
+
+#moviei{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:brown;
+    
+
+}
+#moviei button {
+    align-items: center;
+    background-color: black;
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    color: aliceblue;
+}
+
+#seriesi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:brown;
+    
+
+}
+#seriesi button {
+    align-items: center;
+    background-color: black;
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    color: aliceblue;
+}
+
+#podcasti{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:brown;
+    
+
+}
+#podcasti button {
+    align-items: center;
+    background-color: black;
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    color: aliceblue;
+}

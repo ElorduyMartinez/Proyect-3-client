@@ -1,0 +1,33 @@
+.LoginPage{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/621/859/641/peliculas-terror-wallpaper-preview.jpg);
+    
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+#formulario{
+    background-color:rgba(165, 42, 42, 0.863);
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    color:white;
+    height: 300px;
+    
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#formulario button {
+    align-items: center;
+    background-color: black;
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    color: aliceblue;
+}

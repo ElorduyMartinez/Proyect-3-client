@@ -11,8 +11,18 @@ function Navbar() {
   return (
     <nav>
       <Link to="/">
-        <button>Home</button>
+        <button>I-MOVIE</button>
       </Link>
+      <Link to="/movie">
+        <button>Movies</button>
+      </Link>
+      <Link to="/series">
+        <button>Series</button>
+      </Link>
+      <Link to="/podcast">
+        <button>Podcast</button>
+      </Link>
+
 
       {isLoggedIn && (
         <>
@@ -31,11 +41,11 @@ function Navbar() {
         <>
           <Link to="/signup">
             {" "}
-            <button>Sign Up</button>{" "}
+            <button>SIGN UP</button>{" "}
           </Link>
           <Link to="/login">
             {" "}
-            <button>Login</button>{" "}
+            <button>LOGIN</button>{" "}
           </Link>
         </>
       )}
