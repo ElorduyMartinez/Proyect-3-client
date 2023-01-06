@@ -1,9 +1,11 @@
 
-import Modulem from "../../components/ModuleM/Modulem";
+
 import "./MoviesPage.css"
 import { AuthContext } from "../../context/auth.context";
 import { useContext } from "react";
 import Cardm from "../../components/CardM/Cardm";
+import Modulem from "../../components/ModuleM/Modulem";
+
 
 function MoviesPage (){
     const { isLoggedIn, } = useContext(AuthContext);
@@ -14,7 +16,7 @@ function MoviesPage (){
         {isLoggedIn && (
         <>
              <label>Movies</label>
-             <div className='float-btn'><Modulem/> </div>
+             <div className='float-btn'><Modulem/></div>
         </>
       )}
 

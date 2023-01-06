@@ -14,6 +14,7 @@ import MoviesPage from "./pages/MoviesPage/MoviesPage";
 import PodcastPage from "./pages/PodcastPage/PodcastPage";
 import SeriesPage from "./pages/SeriesPage/SeriesPage";
 
+
 function App() {
   return (
     <div className="App">
@@ -24,6 +25,7 @@ function App() {
         <Route path="/movie" element={<MoviesPage />} />
         <Route path="/podcast" element={<PodcastPage />} />
         <Route path='/series' element={<SeriesPage />} />
+
         <Route
           path="/profile"
           element={
