@@ -12,20 +12,20 @@ a{
 h3, h4, p {
 	Margin: 0;
 }
-/* #error html {
+.html-error {
 	background-image: url(https://i.ytimg.com/vi/BB7jEHPBf-4/maxresdefault.jpg);
 	background-size: auto 540px;
-	height : 100%;
-	Font-family: 'lato';
+	height : 100vh;
+	font-family: 'lato';
 }
-#error body {
-	Background-image: url(https://www.tenstickers.co.uk/wall-stickers/img/preview/no-signal-tv-sticker-4537.png);
-	Background-position : center ;
-	Background-size: auto 375px;
-		Height: 100%;
-	Background-repeat : no-repeat ;
-	Margin: 0;
-} */
+.body-error {
+	background-image: url(https://www.tenstickers.co.uk/wall-stickers/img/preview/no-signal-tv-sticker-4537.png);
+	background-position : center ;
+	background-size: auto 375px;
+		height: 100vh;
+	background-repeat : no-repeat ;
+	margin: 0;
+}
 #error {
 	position : fixed ;
 	Top: 0;

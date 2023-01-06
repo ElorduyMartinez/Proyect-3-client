@@ -1,0 +1,20 @@
+.Top {
+    display: flex;
+    margin: 5px;
+    background-color: brown;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    height: 50px;
+    font-size: 30px;
+}
+
+.Boxcardm {
+    display: flex;
+}
+
+.float-btn {
+    position:fixed;
+    right:50px;
+    bottom: 50px;
+}

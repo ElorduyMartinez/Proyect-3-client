@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 
 function NotFoundPage() {
   return (
+    <div className="html-error">
+    <div className="body-error">
     <div id ="notfound">
       <div id="error">
         <span id="message">
@@ -19,6 +21,8 @@ function NotFoundPage() {
           </div>
         </span>
       </div>
+    </div>
+    </div>
     </div>
   );
 }
